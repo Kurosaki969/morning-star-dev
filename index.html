@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Star Development</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/whatsapp.svg" type="image/svg+xml">
+</head>
+<body>
+
+<canvas id="bg-canvas"></canvas>
+
+<header>
+  <h1>🌟 Morning Star Development</h1>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">À propos</a>
+    <a href="#contact">Contact</a>
+    <button class="sound-btn" id="playMusic">🔊 Activer le son</button>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h2>Allumer les idées. Construire le futur.</h2>
+  <p>Services Microsoft, développement web & solutions innovantes</p>
+  <a href="#services" class="btn">Découvrir nos services</a>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+  <h2>💻 Services Microsoft & Logiciels</h2>
+  <div class="service-card"><h3>1. Systèmes d’exploitation</h3><p>Installation et activation Windows 10 & 11, optimisation.</p></div>
+  <div class="service-card"><h3>2. Microsoft Office</h3><p>Installation & activation authentique, paramétrage complet.</p></div>
+  <div class="service-card"><h3>3. Achat de clés officielles</h3><p>Vente et activation face à face de licences.</p></div>
+  <div class="service-card"><h3>4. Applications pro</h3><p>Installation complète et conseils personnalisés.</p></div>
+</section>
+
+<!-- AUTRES SERVICES -->
+<section class="services">
+  <h2>🚀 Développement & Solutions Tech</h2>
+  <div class="service-card"><h3>Web & Mobile</h3><p>Sites vitrines, e-commerce, applications sur mesure.</p></div>
+  <div class="service-card"><h3>IA & Automatisation</h3><p>IA, bots personnalisés, intégration API.</p></div>
+  <div class="service-card"><h3>Cybersécurité</h3><p>Pentest, audit, sécurisation.</p></div>
+</section>
+
+<!-- A PROPOS -->
+<section id="about">
+  <h2>🌟 Qui sommes-nous ?</h2>
+  <p>Collectif innovant pour solutions tech sur mesure et transformation digitale.</p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="services">
+  <h2>📩 Contactez-nous</h2>
+  <p>Email : contact@morningstar.dev</p>
+  <p>Téléphone : +242 06 646 9270</p>
+  
+  <div style="margin-top:20px;">
+    <a href="https://wa.me/+242066469270" target="_blank" class="btn">💬 WhatsApp Direct</a>
+    <a href="https://whatsapp.com/channel/0029Vajrhmz96H4IsEjh4a41" target="_blank" class="btn" style="margin-left:10px;">📢 Chaîne WhatsApp</a>
+  </div>
+  
+  <div class="whatsapp-container">
+    <a href="https://wa.me/+242066469270" target="_blank" class="whatsapp-float">
+      <img src="img/whatsapp.svg" alt="WhatsApp">
+    </a>
+    <a href="https://whatsapp.com/channel/0029Vajrhmz96H4IsEjh4a41" target="_blank" class="whatsapp-channel">
+      📢
+    </a>
+  </div>
+</section>
+
+<footer>
+  © 2025 Morning Star Development – Tous droits réservés
+</footer>
+
+<!-- Audio -->
+<audio id="bg-music" loop>
+  <source src="musique.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
